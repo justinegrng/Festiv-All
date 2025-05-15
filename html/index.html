@@ -1,62 +1,90 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Festiv'All</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="icon" href="../img/logo.png" type="image/png">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="icon" href="../img/logo.png" type="image/png" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-
 <header>
-    <div class="logo">🎉 Festiv'All</div>
+    <div class="logo-container">
+        <img src="../img/logo.png" alt="Logo Festiv'All" class="logo-img">
+        <span class="logo-text">Festiv'All</span>
+    </div>
     <nav>
         <ul>
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">Festivals</a></li>
-            <li><a href="#">À propos</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="festivals.html">Festivals</a></li>
+            <li><a href="apropos.html">À propos</a></li>
+            <li><a href="#Contact">Contact</a></li>
         </ul>
     </nav>
 </header>
 
+
 <section class="hero">
-    <h1>Le monde des festivals à portée de clic</h1>
-    <p>Musique, arts, gastronomie, culture : trouvez votre prochaine aventure.</p>
-    <a href="#" class="btn">Découvrir les festivals</a>
+    <h1>Explorez la planète <span>Festival</span></h1>
+    <p>Du métal au jazz, des food-trucks aux arts de rue, vivez l’expérience totale.</p>
+    <a href="#" class="btn-primary">Parcourir les festivals</a>
 </section>
 
-<section class="featured">
-    <h2>🎪 À l'affiche</h2>
-    <div class="cards">
+<section class="grid-section">
+    <h2>🎤 Sélection du moment</h2>
+    <div class="card-grid">
         <div class="card">
-            <img src="../img/festival1.jpg" alt="Festival 1">
-            <h3>Rock en Seine</h3>
-            <p>Le rendez-vous rock incontournable de Paris.</p>
+            <h3>Tomorrowland</h3>
+            <p>Un show électro de dimension mondiale.</p>
         </div>
         <div class="card">
-            <img src="../img/festival2.jpg" alt="Festival 2">
-            <h3>Hellfest</h3>
-            <p>Le paradis des amateurs de métal à Clisson.</p>
+            <h3>Les Vieilles Charrues</h3>
+            <p>Tradition et éclectisme au cœur de la Bretagne.</p>
         </div>
         <div class="card">
-            <img src="../img/festival3.jpg" alt="Festival 3">
-            <h3>SOLIDAYS</h3>
-            <p>Un festival engagé, festif et solidaire à Paris.</p>
+            <h3>We Love Green</h3>
+            <p>Musique et écologie, le duo parfait à Paris.</p>
+        </div>
+    </div>
+</section>
+<section class="carousel">
+    <h2>À l'affiche 🎉</h2>
+    <div class="carousel-container">
+        <div class="carousel-track">
+            <img src="../img/festival1.png" alt="Festival 1">
+            <img src="../img/festival2.webp" alt="Festival 2">
+            <img src="../img/festival3.avif" alt="Festival 3">
+            <img src="../img/festival4.jpg" alt="Festival 4">
+            <img src="../img/festival5.jpg" alt="Festival 5">
+            <img src="../img/festival6.webp" alt="Festival 6">
+            <img src="../img/festival7.jpg" alt="Festival 7">
         </div>
     </div>
 </section>
 
-<section class="about">
-    <h2>Qui sommes-nous ?</h2>
-    <p>Festiv'All est une plateforme dédiée à tous les passionnés de festivals. Que vous soyez fan de musique, de food trucks, de cinéma en plein air ou de traditions locales, nous vous aidons à ne rien manquer.</p>
+<section id="Contact" class="contact-section">
+    <h2 style="text-align: center">Contactez-nous</h2>
+    <h3>
+        <form action="#" method="post">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Envoyer</button>
+    </form>
+    </h3>
 </section>
+
+
 
 <footer>
     <p>&copy; 2025 Festiv'All. Tous droits réservés.</p>
 </footer>
-
 </body>
 </html>
