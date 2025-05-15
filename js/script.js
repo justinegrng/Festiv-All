@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const track = document.querySelector(".carousel-track");
         const scrollStep = track.querySelector("img").clientWidth + 24;
 
+
         startAutoScroll(track, scrollStep);
 
         track.addEventListener("mouseenter", () => clearInterval(autoScroll));
