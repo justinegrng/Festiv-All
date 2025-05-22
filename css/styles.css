@@ -86,23 +86,6 @@ nav a:hover {
     margin-inline: auto;
 }
 
-.btn-primary {
-    padding: 1rem 2rem;
-    background: linear-gradient(to bottom right, #8F00FF, #d76800);
-    color: white;
-    border: none;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: bold;
-    cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.btn-primary:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 15px #FF3CAC;
-}
-
 /* Section: Grid cards */
 .grid-section {
     padding: 4rem 2rem;
@@ -220,6 +203,7 @@ form {
     max-width: 400px;
     margin: 0 auto;
 }
+
 form input,
 form textarea {
     padding: 1rem;
@@ -232,11 +216,13 @@ form textarea {
 
 button
 {
-    padding: 1rem;
+    font-size: 1rem;
+    padding: 1rem 2rem;
     background: linear-gradient(to bottom right, #8F00FF, #d76800);
     color: white;
     border: none;
     border-radius: 30px;
+    text-decoration: none;
     font-weight: bold;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -272,8 +258,7 @@ footer p {
 }
 
 .s-network-container {
-    display: flex;
     gap: 1rem;
-    align-items: center;
-    margin-left: auto;
+    display: flex;
+    justify-content: center;
 }
