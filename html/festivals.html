@@ -3,10 +3,89 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FestivALLs</title>
+    <title>Festiv'All</title>
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="icon" href="../img/logo.png" type="image/png" />
+    <script defer src="../js/script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
-    <script src=""></script>
-
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script defer src="../js/map.js"></script>
 </head>
+<body>
+<header>
+    <div class="logo-container">
+        <img src="../img/logo.png" alt="Logo Festiv'All" class="logo-img">
+        <span class="logo-text">Festiv'All</span>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="festivals.html">Festivals</a></li>
+            <li><a href="apropos.html">À propos</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Trouvez les festivals <span>proches</span> de chez vous !</h1>
+    <p>Ou que vous soyez, il y a toujours un endroit pour faire la fête !</p>
+    <button id="scroll-to-map" type="submit">Accéder à la carte</button>
+</section>
+
+<section class="grid-section">
+    <h2>🎤 Sélection du moment</h2>
+    <div class="card-grid">
+        <div class="card">
+            <h3>Tomorrowland</h3>
+            <p>Un show électro de dimension mondiale.</p>
+        </div>
+        <div class="card">
+            <h3>Les Vieilles Charrues</h3>
+            <p>Tradition et éclectisme au cœur de la Bretagne.</p>
+        </div>
+        <div class="card">
+            <h3>We Love Green</h3>
+            <p>Musique et écologie, le duo parfait à Paris.</p>
+        </div>
+    </div>
+</section>
+
+<section class="maps">
+    <div id="map"></div>
+</section>
+
+<section id="Contact" class="contact-section">
+    <h2 id="contactez" style="text-align: center">Contactez-nous</h2>
+    <form action="#" method="post">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+
+<footer>
+    <nav>
+        <p class="bottom-p">&copy 2025 Festiv'All. Tous droits réservés.</p>
+        <div class="s-network-container">
+            <ul>
+                <li><a id="logo-fb" href="https://www.fallingfalling.com/">
+                    <img class="s-network" src = "../img/facebook.png" alt = "logo-facebook"></a></li>
+                <li><a id="logo-li" href="https://fr.linkedin.com/in/justine-garnung">
+                    <img class="s-network" src = "../img/linkedin.png" alt = "logo-linkedin"></a></li>
+                <li><a id="logo-in" href="https://www.instagram.com/justine.grng/?hl=fr">
+                    <img class="s-network" src = "../img/insta.png" alt = "logo-insta"></a></li>
+            </ul>
+        </div>
+    </nav>
+</footer>
+</body>
+</html>

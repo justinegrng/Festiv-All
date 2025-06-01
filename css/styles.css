@@ -271,6 +271,16 @@ footer p {
     padding: 5px
 }
 
+#map {
+    box-shadow: 0 4px 15px rgba(255, 60, 172, 0.1);
+    margin: auto;
+    height: 600px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+
+
 /* A propos */
 .about-section {
     background-color: #0B0C10;
