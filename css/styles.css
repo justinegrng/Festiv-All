@@ -270,3 +270,65 @@ footer p {
 #contactez{
     padding: 5px
 }
+
+/* A propos */
+.about-section {
+    background-color: #0B0C10;
+    padding: 60px 0;
+}
+.about-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 30px;
+    background: #333;
+    border-radius: 24px;
+    box-shadow: 0 8px 32px rgba(60, 60, 120, 0.08);
+}
+.about-section h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 18px;
+    color: #FF3CAC;
+}
+.about-intro {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 36px;
+    color: white;
+}
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: space-between;
+}
+.about-block {
+    flex: 1 1 250px;
+    background: #0B0C10;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(60, 60, 120, 0.04);
+}
+.about-block h2 {
+    color: #FF3CAC;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.about-block p {
+    margin-bottom: 12px;
+}
+.about-block h3 {
+    padding-left: 0;
+    color: #8F00FF;
+}
+.about-block ul {
+    padding-left: 20px;
+    margin: 0;
+}
+@media (max-width: 800px) {
+    .about-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
