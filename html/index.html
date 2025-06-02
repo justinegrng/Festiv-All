@@ -27,9 +27,9 @@
 
 
 <section class="hero">
-    <h1>Explorez la planète <span>Festival</span></h1>
-    <p>Du métal au jazz, des food-trucks aux arts de rue, vivez l’expérience totale.</p>
-    <a href="#" class="btn-primary">Parcourir les festivals</a>
+    <h1>Explorez la planète <span>Festival</span> !</h1>
+    <p>Du métal au jazz, des food-trucks aux arts de rue, vivez l’expérience des festivals à fond !</p>
+    <button id="scroll-to-carousel" type="submit">Parcourir les festivals</button>
 </section>
 
 <section class="grid-section">
@@ -49,25 +49,24 @@
         </div>
     </div>
 </section>
-<section class="carousel">
+<section id="fest-list" class="carousel">
     <h2>À l'affiche 🎉</h2>
     <div class="carousel-container">
         <div class="carousel-track">
-            <img src="../img/festival1.png" alt="Festival 1">
-            <img src="../img/festival2.webp" alt="Festival 2">
-            <img src="../img/festival3.avif" alt="Festival 3">
-            <img src="../img/festival4.jpg" alt="Festival 4">
-            <img src="../img/festival5.jpg" alt="Festival 5">
-            <img src="../img/festival6.webp" alt="Festival 6">
-            <img src="../img/festival7.jpg" alt="Festival 7">
+            <img src="../img/Garorock.png" alt="Festival 1">
+            <img src="../img/ODP.webp" alt="Festival 2">
+            <img src="../img/Sunska.avif" alt="Festival 3">
+            <img src="../img/Burdigala.jpg" alt="Festival 4">
+            <img src="../img/Balterno.jpg" alt="Festival 5">
+            <img src="../img/Francofolies.webp" alt="Festival 6">
+            <img src="../img/Initial.jpg" alt="Festival 7">
         </div>
     </div>
 </section>
 
 <section id="Contact" class="contact-section">
-    <h2 style="text-align: center">Contactez-nous</h2>
-    <h3>
-        <form action="#" method="post">
+    <h2 id="contactez" style="text-align: center">Contactez-nous</h2>
+    <form action="#" method="post">
         <label for="name">Nom :</label>
         <input type="text" id="name" name="name" required />
 
@@ -79,13 +78,22 @@
 
         <button type="submit">Envoyer</button>
     </form>
-    </h3>
 </section>
 
-
-
 <footer>
-    <p>&copy; 2025 Festiv'All. Tous droits réservés.</p>
+    <nav>
+        <p class="bottom-p">&copy 2025 Festiv'All. Tous droits réservés.<br><a href="apropos.html">A propos de nous</a></p>
+        <div class="s-network-container">
+            <ul>
+                <li><a id="logo-fb" href="https://www.fallingfalling.com/">
+                        <img class="s-network" src = "../img/facebook.png" alt = "logo-facebook"></a></li>
+                <li><a id="logo-li" href="https://fr.linkedin.com/in/justine-garnung">
+                        <img class="s-network" src = "../img/linkedin.png" alt = "logo-linkedin"></a></li>
+                <li><a id="logo-in" href="https://www.instagram.com/justine.grng/?hl=fr">
+                        <img class="s-network" src = "../img/insta.png" alt = "logo-insta"></a></li>
+            </ul>
+        </div>
+    </nav>
 </footer>
 </body>
 </html>

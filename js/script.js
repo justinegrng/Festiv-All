@@ -34,5 +34,11 @@ document.addEventListener("DOMContentLoaded", () => {
         track.addEventListener("mouseleave", () => startAutoScroll(track, scrollStep));
     });
 
+    const scrollToCarouselBtn = document.getElementById("scroll-to-carousel");
+    const festivalCarousel = document.getElementById("fest-list");
+
+    scrollToCarouselBtn.addEventListener("click", () => {
+        festivalCarousel.scrollIntoView({ behavior: "smooth" });
+    });
 
 });
