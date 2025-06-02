@@ -7,7 +7,7 @@
 
 ### Files organization
 > [!NOTE] 
-> Il suffit de cliquer ci-dessous sur "📁 AutomatesProjet" afin de visualiser l'arborescence de notre projet.
+> Il suffit de cliquer ci-dessous sur "📁 Festiv'All" afin de visualiser l'arborescence de notre projet.
 
 
 <details>
