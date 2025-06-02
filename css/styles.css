@@ -467,10 +467,9 @@ table tbody td:nth-child(3) {
 }
 
 .price-table{
+    justify-content: center;
     width: 90%;
-    margin: 15px;
-    padding: 15 px;
-    margin-bottom: 15px;
+    margin: auto;
 }
 
 .img-c-c {
@@ -486,4 +485,17 @@ table tbody td:nth-child(3) {
 
 .location{
     text-align: center;
+}
+
+.location{
+    text-align: center;
+}
+
+.festival-details{
+    text-align: center;
+    margin: 20px;
+}
+
+.bill{
+    text-align: left;
 }
