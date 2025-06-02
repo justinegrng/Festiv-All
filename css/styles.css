@@ -468,5 +468,22 @@ table tbody td:nth-child(3) {
 
 .price-table{
     width: 90%;
-    margin: auto;
+    margin: 15px;
+    padding: 15 px;
+    margin-bottom: 15px;
+}
+
+.img-c-c {
+    display: inline-flex;
+    gap: 1rem;
+    margin-bottom: 15px;
+}
+.img-c-c img {
+    width: 49%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.location{
+    text-align: center;
 }
